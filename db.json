@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "nama": "T-shirt",
+      "harga_beli": "15000",
+      "harga_jual": "50000",
+      "stok": "4000",
+      "id": 8
+    },
+    {
+      "nama": "Pants",
+      "harga_beli": "30000",
+      "harga_jual": "70000",
+      "stok": "200",
+      "id": 9
+    },
+    {
+      "nama": "Phone",
+      "harga_beli": "100000",
+      "harga_jual": "150000",
+      "stok": "400",
+      "id": 10
+    },
+    {
+      "nama": "Bag",
+      "harga_beli": "70000",
+      "harga_jual": "120000",
+      "stok": "300",
+      "id": 11
+    },
+    {
+      "nama": "Computer",
+      "harga_beli": "400000",
+      "harga_jual": "700000",
+      "stok": "400",
+      "id": 12
+    }
+  ]
+}
