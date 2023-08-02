@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "image": "https://images.unsplash.com/photo-1689525970033-948720b0ccf8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1160&q=80",
       "nama": "T-shirt",
       "harga_beli": "15000",
       "harga_jual": "50000",
@@ -8,6 +9,7 @@
       "id": 8
     },
     {
+      "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1452&q=80",
       "nama": "Pants",
       "harga_beli": "30000",
       "harga_jual": "70000",
@@ -15,6 +17,7 @@
       "id": 9
     },
     {
+      "image": "https://images.unsplash.com/photo-1689525394460-255f8b9bee4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80",
       "nama": "Phone",
       "harga_beli": "100000",
       "harga_jual": "150000",
@@ -22,18 +25,20 @@
       "id": 10
     },
     {
+      "image": "https://images.unsplash.com/photo-1688469625789-d9aa18dbcd21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
       "nama": "Bag",
-      "harga_beli": "70000",
-      "harga_jual": "120000",
+      "harga_beli": "20000",
+      "harga_jual": "40000",
       "stok": "300",
-      "id": 11
+      "id": 12
     },
     {
-      "nama": "Computer",
-      "harga_beli": "400000",
-      "harga_jual": "700000",
-      "stok": "400",
-      "id": 12
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+      "nama": "Speaker",
+      "harga_beli": "30000",
+      "harga_jual": "70000",
+      "stok": "2000",
+      "id": 13
     }
   ]
 }
