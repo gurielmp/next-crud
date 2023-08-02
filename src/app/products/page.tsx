@@ -1,8 +1,12 @@
+import Image from "next/image"
 import AddProduct from "./addProduct"
 import DeleteProduct from "./deleteProduct"
 import UpdateProduct from "./updateProduct"
+import { StaticImport } from "next/dist/shared/lib/get-img-props"
+
 
 type Product = {
+  image: string | StaticImport
   id: number
   nama: string
   harga_beli: number
@@ -32,6 +36,7 @@ export default async function ProductList() {
             <th>Harga Beli</th>
             <th>Harga Jual</th>
             <th>Stock</th>
+            <th>Image</th>
             <th>Action</th>
           </tr>
         </thead>
@@ -39,6 +44,11 @@ export default async function ProductList() {
           {products.map((product, index) => (
             <tr key={product.id}>
               <td>{index + 1}</td>
+              <td><Image 
+                src={product.image}
+                width={100}
+                height={100}
+                alt="picture"/></td>
               <td>{product.nama}</td>
               <td>{product.harga_beli}</td>
               <td>{product.harga_jual}</td>

@@ -80,7 +80,7 @@ export default function UpdateProduct(product: Product) {
                     <p className="pl-1">or drag and drop</p>
                   </div>
                   <p className="text-xs leading-5 text-gray-600">
-                    PNG, JPG, GIF up to 100MB
+                    PNG, JPG, GIF up to 100KB
                   </p>
                 </div>
               </div>
